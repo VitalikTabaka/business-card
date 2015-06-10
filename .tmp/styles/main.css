@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "mainFont";
+  src: url("fonts/CaviarDreams_BoldItalic.ttf");
+}
+/* line 6, ../../app/styles/main.scss */
+body {
+  background-color: rgba(130, 173, 64, 0.3);
+  font-family: mainFont;
+  margin: 5% 0 0 0;
+  padding: 0;
+}
+/* line 11, ../../app/styles/main.scss */
+body * {
+  box-sizing: border-box;
+}
+
+/* line 17, ../../app/styles/main.scss */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #82ad40;
+}
+/* line 23, ../../app/styles/main.scss */
+.header * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+}
+/* line 30, ../../app/styles/main.scss */
+.header .navbar-brand {
+  padding: 10px;
+}
+/* line 32, ../../app/styles/main.scss */
+.header .navbar-brand:after {
+  border-right: 1px solid #000;
+  /* margin-left: 7px; */
+  padding: 10px;
+  content: "";
+}
+/* line 40, ../../app/styles/main.scss */
+.header .navbar-nav li {
+  padding: 0 10px 0 10px;
+}
+/* line 41, ../../app/styles/main.scss */
+.header .navbar-nav li:hover {
+  text-shadow: 1px 1px #000;
+}
+
+/* line 49, ../../app/styles/main.scss */
+.main {
+  text-align: center;
+  padding: 2%;
+  overflow: auto;
+}
+/* line 53, ../../app/styles/main.scss */
+.main img {
+  width: 80%;
+}
+
+/* line 59, ../../app/styles/main.scss */
+.about {
+  width: 100%;
+  padding: 2%;
+}
+/* line 62, ../../app/styles/main.scss */
+.about img {
+  width: 80%;
+}
+
+/* line 68, ../../app/styles/main.scss */
+.contacts-img {
+  width: 100%;
+}
+/* line 70, ../../app/styles/main.scss */
+.contacts-img img {
+  margin: 2% 0 2% 0;
+  width: 25%;
+  margin-left: 37.5%;
+}
+
+/* line 77, ../../app/styles/main.scss */
+.contacts {
+  width: 100%;
+}
+/* line 79, ../../app/styles/main.scss */
+.contacts div {
+  text-align: center;
+}
+
+/* line 85, ../../app/styles/main.scss */
+.posts {
+  width: 30%;
+  max-width: 250px;
+  /*  max-height: 300px;*/
+  float: left;
+  margin: 2%;
+}
+/* line 92, ../../app/styles/main.scss */
+.posts:hover {
+  box-shadow: 0 0 20px 0 #000000;
+}
+/* line 95, ../../app/styles/main.scss */
+.posts img {
+  width: 100%;
+}
+/* line 98, ../../app/styles/main.scss */
+.posts .img-title {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 104, ../../app/styles/main.scss */
+.footer {
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #82ad40;
+  text-align: center;
+}
